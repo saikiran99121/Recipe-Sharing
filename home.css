@@ -1,0 +1,69 @@
+body{
+    background-color: #e6e8e6;
+    
+}
+.fcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    MARGIN: 20PX;
+    PADDING: 20PX;
+    /* background-color: #e6e8e6; */
+}
+
+.fitem {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    height: 500px;
+    width: 20%; /* Adjust as needed */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center; /* Ensure padding and border are included in the width */
+    margin-bottom: 10%;
+    border-color: blueviolet;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+    transition: transform .2s;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 9999;
+}
+.popup.show {
+    display: block;
+}
+.fitem:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.fitem img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+}
+.fitem h4 {
+    /* margin-top: 10px; */
+    z-index: 5000; /* Add space between image and heading */
+    text-shadow: 1px 1px black;
+}
+
+.fitem button {
+    margin-top: 10px; /* Add space between heading and button */
+    border-radius:10px;
+}
+#image{
+    height: 40px;
+    width: 70px;
+}
+

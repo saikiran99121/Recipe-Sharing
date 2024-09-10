@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://www.thespruceeats.com/thmb/kiiruXoPHZk5FA40Wg6kgMgN1l8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-french-rum-baba-recipe-1375132-hero-01-1cda9d99839c4401a79aed2cc9404c8a.jpg");
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    background-size: cover;
+}
+#text{
+    color: white;
+    margin-top: 11%;
+    text-align: center;
+}
+#image{
+    height: 40px;
+    width: 70px;
+}

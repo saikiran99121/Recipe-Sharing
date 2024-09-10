@@ -1,0 +1,35 @@
+#pass{
+    height: 20%;
+    width: 20%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #h1{
+    text-align: center;
+  font-weight: bold;
+
+
+  }
+  #image{
+    height: 40px;
+    width: 70px;
+}
+body{
+  background-color: #e6e8e6;
+  background:url(images/logo.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center; 
+}
+p{
+  font-weight: bold;
+}
+#linkicon{
+  height: 20px;
+}
